@@ -30,8 +30,7 @@ V<sub>drop</sub> = 2 x 3.0 x 16.61 x 0.050 = 4.98V
 
 ### Measurements
 Input voltage 23.9V
-| activity | end of cable | | | | input ASIAIR | | |
-| - | - | - | - | - | - | - | - |
+| | power meter (end of cable) | | | | input ASIAIR | | |
 | activity | current | voltage | V<sub>drop</sub> | power | current | voltage | power |
 | - | - | - | - | - | - | - | - |
 |Stationary | 1.08A | 21.8V	| 2.1V | 23.5W | 2.0A | 11.7V | 23.3W |
