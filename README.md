@@ -32,6 +32,7 @@ V<sub>drop</sub> = 2 x 3.0 x 16.61 x 0.050 = 4.98V
 Input voltage 23.9V
 |	end of cable | input ASIAIR |
 | activity | current | voltage | V<sub>drop</sub> | power | current | voltage | power |
+| - | - | - | - | - | - | - | - |
 |Stationary | 1.08A | 21.8V	| 2.1V | 23.5W | 2.0A | 11.7V | 23.3W |
 |Tracking | 1.19A | 21.6V |	2.3V | 25.6W | 2.2A | 11.7V | 25.3W |
 |Slewing | 1.28A | 21.3V | 2.6V | 27.2W | 2.2A | 11.6V | 25.9W |
