@@ -39,7 +39,9 @@ Equipment attached:
 - Refractor objective dew heater
 
 ZWO quotes the AM5 power usage as Standby	0.386A, 4.632W, Tracking 0.58A, 6.96W, Slewing 1.7A, 20.4W 
+
 ZWO ASI2600MC camera power usage: 1.15A at 5V, 5.75W
+
 ZWO ASI2600MC cooler power usage: 12V at 3A Max, 36W
 
 | activity | current<sup>1</sup> | voltage<sup>1</sup> | V<sub>drop</sub><sup>1</sup> | power<sup>1</sup> | current<sup>2</sup> | voltage<sup>2</sup> | power<sup>2</sup> |
@@ -47,8 +49,8 @@ ZWO ASI2600MC cooler power usage: 12V at 3A Max, 36W
 |Stationary | 1.08A | 21.8V	| 2.1V | 23.5W | 2.0A | 11.7V | 23.3W |
 |Tracking | 1.19A | 21.6V |	2.3V | 25.6W | 2.2A | 11.7V | 25.3W |
 |Slewing | 1.28A | 21.3V | 2.6V | 27.2W | 2.2A | 11.6V | 25.9W |
-1. Measured at the end of the cable by the power meter
-2. Measured by the ZWO ASIAIR Plus
+<sup>1</sup> Measured at the end of the cable by the power meter
+<sup>2</sup> Measured by the ZWO ASIAIR Plus
 
 Notes - 
 
