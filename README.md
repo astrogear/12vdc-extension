@@ -15,9 +15,9 @@ The aim is to produce a waterproof 12v DC power source using a 50m long 1mm<sup>
 
 ### Predicted voltage drop
 V<sub>drop</sub> = 2·I·R·L
-I: the current through the wire
-R: the length-specific resistance of the wires
-L: the one-way length
+- I: the current through the wire
+- R: the length-specific resistance of the wires
+- L: the one-way length
 
 Cable area: 1.0 mm<sup>2</sup>
 Copper resistance: 16.61 Ω/km
