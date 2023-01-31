@@ -66,8 +66,16 @@ ZWO ASI2600MC cooler power usage: 12V at 3A Max, 36W
 
 ### Notes
 
+Reducing the voltage at the supply end would increase the current in the cable which would increase power loss due to heating (by the square of the current). 
+
+| voltage at supply | current | resistance | power heating cable |
+|---|---|---|---|
+|24v | 1.5A | 1.66ohm	| 3.74W |
+|12v | 3A | 1.66ohm | 14W |
+|8v | 4.5A | 1.66ohm | 33.6W |
+
 Difference in power between meter and the ASIAIR due to loss in regulator?
 
-Slewing measurement seems low - the mount suggests it should draw more power. This may be an issue with the measurement by the ASIAIR averaging?
+Slewing measurement seems low - the mount documentation suggests it should draw more power. This may be an issue with the measurement by the ASIAIR averaging?
 
 
