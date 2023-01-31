@@ -1,17 +1,7 @@
 # 12vdc-extension
 Description of a 50m 12v DC power extension
 
-The aim is to produce a waterproof 12v DC power source using a 50m long 1mm<sup>2</sup> area cable. The problem is that the resistance would cause significant voltage drop over this length (100m round journey) but this will depend on the current being drawn. The strategy here is to start with a 24V source and then use a buck/boost regulator to get a 12V supply at the end of 50m of cable irrespective of the voltage drop. The regulator (along with a amp/volt meter to monitor power usage) are housed in a waterproof enclosure with at 12V 'cigarette lighter' socket.
-
-|Item|Cost|
-|---|---|
-|Automotive Twin Core Cable (16.5 AMP Rated 1mm² 18 AWG) 10/30/50/100 Metre (50M Roll)|£34.95 for 50m|
-|DC Voltage Reducer Automatic Buck Boost Converter DC 8V-40V to 12V 6A 72W | £23.99 |
-|DC Power Analyzer High Precision Watt Volt Amp Energy Meter Analyzer Tool (0-100A 0-60V)|£10.99|
-|Junction Box Universal Project Enclosure, ABS Waterproof IP65 Electrical Box Hinged Shell w PC Transparent Cover with Lock 150 x 100 x 70 mm|£12.99|
-|Waterproof Cigarette Lighter Outlet Universal 12V/24V DC |£9.99|
-|M12 Cable Gland Waterproof|£5.99 for 20|
-|24v DC power supply||
+The aim is to produce a waterproof 12v DC power source using a 50m long 1mm<sup>2</sup> area cable. The problem is that the resistance would cause significant voltage drop over this length (100m round journey) but this will depend on the current being drawn. 
 
 ### Predicted voltage drop
 V<sub>drop</sub> = 2·I·R·L
@@ -28,7 +18,27 @@ V<sub>drop</sub> = 2 x 1.0 x 16.61 x 0.050 = 1.66V
 3A current (6A at 12V)
 V<sub>drop</sub> = 2 x 3.0 x 16.61 x 0.050 = 4.98V
 
+The strategy here is to start with a 24V source and then use a buck/boost regulator to get a 12V supply at the end of 50m of cable irrespective of the voltage drop. The regulator (along with a amp/volt meter to monitor power usage) are housed in a waterproof enclosure with at 12V 'cigarette lighter' socket.
+
+|Item|Cost|
+|---|---|
+|Automotive Twin Core Cable (16.5 AMP Rated 1mm² 18 AWG) 10/30/50/100 Metre (50M Roll)|£34.95 for 50m|
+|DC Voltage Reducer Automatic Buck Boost Converter DC 8V-40V to 12V 6A 72W | £23.99 |
+|DC Power Analyzer High Precision Watt Volt Amp Energy Meter Analyzer Tool (0-100A 0-60V)|£10.99|
+|Junction Box Universal Project Enclosure, ABS Waterproof IP65 Electrical Box Hinged Shell w PC Transparent Cover with Lock 150 x 100 x 70 mm|£12.99|
+|Waterproof Cigarette Lighter Outlet Universal 12V/24V DC |£9.99|
+|M12 Cable Gland Waterproof|£5.99 for 20|
+|24v DC power supply||
+
+Setting a 24v power supply:
+![IMG_4894](https://user-images.githubusercontent.com/686405/215772963-129688d6-0c6c-404b-b7d6-26a342f68e64.jpeg)
+
+After 50m of cable, drawing close to one Amp, the voltage had dropped to 22V (close to the theoretical calculation above). The meter is on the supply side of the DC converter so the gear will be drawing ~2As at 12Vs.
+![IMG_4895](https://user-images.githubusercontent.com/686405/215773089-488023bb-84c6-40b1-8b2d-7fe134f2a6e1.jpeg)
+
 ### Measurements
+I did a few measurements with my actual equipment using different power. The measurements were taken using the amp/volt meter before the converter and in the ZWO ASIAIRs internal meters (not sure how accurate these are).
+
 Input voltage 23.9V
 
 Equipment attached:
@@ -58,5 +68,6 @@ ZWO ASI2600MC cooler power usage: 12V at 3A Max, 36W
 
 Difference in power between meter and the ASIAIR due to loss in regulator?
 
-Slewing measurement seems low -
+Slewing measurement seems low - the mount suggests it should draw more power. This may be an issue with the measurement by the ASIAIR averaging?
+
 
